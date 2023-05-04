@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rowdies&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 0px 40px 0px;
+        }
+
+        .bg {
+            background-color: black;
+            color: white;
+        }
+
+        body {
+            background-color: #f1f1f1;
+            font-family: 'roboto', sans-serif;
+        }
+
+        .card1 {
+            width: 95%;
+            /* height: 90vh; */
+            margin: auto;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            ;
+            margin-bottom: 20px;
+            
+        }
+        .card{
+            width: 95%;
+            /* height: 90vh; */
+            margin: auto;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            ;
+            margin-bottom: 25px;
+            
+        }
+        .head{
+            padding: 15px;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            height: 20vh;
+            align-items: end;
+        }
+        .button{
+            height: 50px;
+            width: 120px;
+            background-color: gray;
+            color: aliceblue;
+            border: 1px solid black;
+            margin: 20px;
+        }
+        .button:hover{
+            background-color: rgba(128, 128, 128, 0.212);
+            color: black;
+        }
+
+        .card2 {
+            /* width: 100%; */
+            /* height: 60vh; */
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            /* /* flex: 300px; * */
+
+          
+        }
+        .head1{
+            padding: 15px;
+        }
+
+        .card3 {
+            width: 100%;
+            margin: auto;
+            /* height: 61vh; */
+            /* flex: 300px; */
+
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+        }
+        .card4{
+            width: 100%;
+            margin: auto;
+            height: 28vh;
+            /* flex: 300px; */
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+        }
+
+
+        .img{
+            display: flex;
+            padding: 10px;
+            border-bottom: 0.5px solid rgba(128, 128, 128, 0.443);
+
+        }
+        .ri{
+            margin-left: 20px;
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            /* justify-content: space-evenly; */
+        }
+
+        .left{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            /* justify-content: space-evenly; */
+        }
+        .main{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            /* flex-wrap: wrap; */
+        
+        }
+        footer{
+            height: 26vh;
+            background-color: rgba(0, 0, 0, 0.653);
+            padding: 29px;
+            /* margin-top: 20px; */
+        }
+        
+    
+        footer>.pad>span>.btn1{
+            background-color: black;
+            color: white;
+            padding: 20px;
+            height: 58px;
+            width: 150px;
+            border: 0.4px solid rgba(128, 128, 128, 0.39);
+        }
+        footer>.pad>span>.btn2{
+            background-color: rgba(0, 0, 0, 0.335);
+            color: white;
+            padding: 20px;
+            height: 58px;
+            width: 150px;
+            border: 0.4px solid rgba(128, 128, 128, 0.39);
+
+        }
+        footer>.pad>span>.btn2:hover{
+            background-color: #f1f1f1;
+            color: black;
+        }
+        footer>.pad>span>.btn1:hover{
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        @media screen and (max-width:600px){
+            .main{
+            display: block;
+        
+            width: 100%;
+            
+        
+        }
+            
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>MY BLOG</h1>
+        <P>Welcom to the blog of <span class="bg">unknown</span></P>
+    </header>
+    <div class="main">
+    <div class="left">
+    <div class="card">
+        <img src="/templete.html/img/woods.jpg" height="auto" width="100%" alt="">
+        <div class="head">
+            <h2>Tittle heading</h2>
+            <p>tittle description <span>April 7, 2014</span></p>
+            <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod
+                placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
+                congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+                vitae, ultricies congue gravida diam non fringilla. </p>
+        </div>
+        <div class="flex">
+            <button class="button">READ MORE</button>
+            <P>COMMENT <span class="bg">0</span></P>
+        </div>
+    </div>
+
+    <div class="card1">
+        <img src="/templete.html/img/bridge.jpg" height="auto" width="100%" alt="">
+        <div class="head">
+            <h2>BLOG Entry</h2>
+            <p>tittle description <span>April 2, 2017</span></p>
+            <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod
+                placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
+                congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+                vitae, ultricies congue gravida diam non fringilla. </p>
+        </div>
+        <div class="flex">
+            <button class="button">READ MORE</button>
+            <P>COMMENT <span class="bg">2</span></P>
+        </div>
+    </div>
+    </div>
+
+    <!-- next card right -->
+  <div class="right">
+
+    <div class="card2">
+        <img src="/templete.html/img/avatar_g.jpg" height="auto" width="100%" alt="">
+        <div class="head1">
+            <h2>My Name</h2>
+            <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of
+                lorem ipsum and mauris neque quam blog. I want to share my world with you.
+
+            </p>
+        </div>
+    </div>
+    <div class="card3">
+        <h2 style="background-color: rgba(128, 128, 128, 0.47); padding: 20px ;">Popular Posts</h2>
+        <div class="img">
+            <img src="/templete.html/img/gondol.jpg" height="55px" width="55px" alt="">
+            <div class="ri">
+                <p>Lorem</p>  
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="/templete.html/img/skies.jpg" height="55px" width="55px" alt="">
+            <div class="ri">
+                <p>Ipsum</p>  
+                <p>Lorem, ipsum.</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="/templete.html/img/workshop.jpg" height="55px" width="55px" alt="">
+            <div class="ri">
+                <p>Dorem</p>  
+                <p>lorem</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="/templete.html/img/gondol.jpg" height="55px" width="55px" alt="">
+            <div class="ri">
+                <p>lorem</p>  
+                <p>numxc mattered</p>
+            </div>
+        </div>
+    </div>
+    <div class="card4">
+        <h2 style="background-color: rgba(128, 128, 128, 0.47); padding: 20px; margin-bottom: 10px ;">Tags</h2>
+        <span class="bg">Travel</span>
+        <span style="background-color: rgba(128, 128, 128, 0.426); margin: 2px;">New york</span>
+        <span style="background-color: rgba(128, 128, 128, 0.297); margin: 2px;">LONDON</span>
+        <span style="background-color: rgba(128, 128, 128, 0.542); margin: 2px;">Ikea</span>
+        <span style="background-color: rgba(128, 128, 128, 0.39); margin: 2px;">Spanies</span>
+        <span style="background-color: rgba(128, 128, 128, 0.326); margin: 2px;">sports</span>
+        <span style="background-color: rgba(128, 128, 128, 0.456); margin: 2px;">Game</span>
+        <span style="background-color: rgba(128, 128, 128, 0.408); margin: 2px;">Baby</span>
+        <span style="background-color: rgba(128, 128, 128, 0.454); margin: 2px;">News</span>
+        <span style="background-color: rgba(128, 128, 128, 0.39); margin: 2px;">Family</span>
+        <span style="background-color: rgba(128, 128, 128, 0.319); margin: 2px;">Next</span>
+        <span style="background-color: rgba(128, 128, 128, 0.278); margin: 2px;">New york</span>
+    </div>
+
+  </div>
+    </div>
+    <footer>
+        <div class="pad">
+        <span><button class="btn1">Previous</button> <button class="btn2">Next</button></span>
+      </div>  <br>
+        <cite style="color: aliceblue;">Powered by sidhi <a style="color: antiquewhite;" href="">blog templete</a></cite>
+    </footer>
+</body>
+
+</html>
